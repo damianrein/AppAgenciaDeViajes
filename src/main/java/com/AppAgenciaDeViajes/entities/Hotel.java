@@ -18,5 +18,7 @@ public class Hotel {
 	@Enumerated(EnumType.ORDINAL)
 	private Stars star;
 	private String name;
+	private String street;
+	private Short number;
 	
 }
