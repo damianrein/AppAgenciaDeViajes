@@ -2,6 +2,7 @@ package com.AppAgenciaDeViajes.entities;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class TouristPack {
 
@@ -11,7 +12,9 @@ public class TouristPack {
 	private short peoples;
 	private String hotels;
 	private String visits;
-	private String attractions;
+	private List<Attraction> attractions;
 	private BigDecimal totalAmount;
 	private TouristRoute route;
+	
+	
 }
